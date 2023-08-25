@@ -44,4 +44,26 @@ p {
     font-weight: 600;
 }
 
+@media(max-width: 1024px) {
+    content {
+        width: 90vw;
+        border-radius: 22px;
+    }
+
+    #verse-text {
+        font-size: 40px;
+        font-weight: 450;
+    }
+
+    #verse {
+        font-size: 30px;
+    }
+
+    button {
+        font-size: 30px;
+        padding: 1rem;
+        border-radius: 22px;
+    }
+}
+
 
